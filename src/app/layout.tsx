@@ -28,10 +28,10 @@ export default function RootLayout({
       >
         <body className={`${outfitSans.variable} h-full antialiased font-sans`}>
           <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableColorScheme
-          disableTransitionOnChange>
+            attribute="class"
+            defaultTheme="system"
+            enableColorScheme
+            disableTransitionOnChange>
             {children}
           </ThemeProvider>
         </body>
