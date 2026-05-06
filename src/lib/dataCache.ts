@@ -8,3 +8,7 @@ export function getGlobalTag(tag: CacheTag) {
 export function getUserTag(tag: CacheTag, userId: string) {
     return `user-${userId}-${tag}` as const;
 }
+
+export function getIdTag(tag: CacheTag, id: string) {
+    return `id-${id}-${tag}` as const;
+}

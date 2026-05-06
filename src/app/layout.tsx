@@ -12,7 +12,7 @@ const outfitSans = Outfit({
 
 export const metadata: Metadata = {
   title: "AI Interview Preperation",
-  description: "Prepare for your next interview with our AI-powered platform",
+  description: "Prepare for your next interview with our AI-powered platform for learning and practicing interview questions.",
 };
 
 export default function RootLayout({

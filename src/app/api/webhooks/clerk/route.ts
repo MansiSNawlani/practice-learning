@@ -1,4 +1,5 @@
 import { createdAt, updatedAt } from "@/drizzle/schemaHelpers";
+import { deleteUser, upsertUser } from "@/features/users/db";
 import { verifyWebhook } from "@clerk/nextjs/webhooks";
 import { NextRequest } from "next/server";
 import { use } from "react";
